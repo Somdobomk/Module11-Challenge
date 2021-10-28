@@ -1,4 +1,4 @@
-# Project Title
+# Module 11 - Note Taker
 
 <h1 align="center">
     <a href="" target="_blank">
@@ -13,12 +13,14 @@
 
 - [About](#about)
 - [Getting Started](#getting_started)
-- [Usage](#usage)
 - [Contributing](./CONTRIBUTING.md)
+- [License](./LICENSE)
+- [Code of Conduct](./CODE_OF_CONDUCT.md)
+- [Theme](#theme)
 
 ## About <a name = "about"></a>
 
-Write about 1-2 paragraphs describing the purpose of your project.
+This is a [node](https://nodejs.org/en/) application that allows you to create, read, update, and delete notes. It uses [express](https://expressjs.com/) as the backend to handle requests from a JSON file. The frontend code for this was provided by the module.
 
 ## Getting Started <a name = "getting_started"></a>
 
@@ -50,18 +52,17 @@ THEN I am presented with empty fields to enter a new note title and the note’s
 
 ### Prerequisites
 
-What things you need to install the software and how to install them.
+- [Node.js](https://nodejs.org/en/)
+- [Express.js](https://expressjs.com/)
 
 ### Installing
 
-A step by step series of examples that tell you how to get a development env running.
+1. Clone this repo.
+2. Navigate to repo folder.
+3. Run `node server.js`
+4. Open a new tab in your browser and navigate to http://localhost:3000
 
-Say what the step will be
+## Theme <a name = "theme"></a>
 
-And repeat
-
-End with an example of getting some data out of the system or using it for a little demo.
-
-## Usage <a name = "usage"></a>
-
-Add notes about how to use the system.
+- [Font](https://rubjo.github.io/victor-mono/)
+- [Gruvbox Theme](https://github.com/morhetz/gruvbox)
