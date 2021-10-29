@@ -1,7 +1,7 @@
 # Module 11 - Note Taker
 
 <h1 align="center">
-    <a href="" target="_blank">
+    <a href="https://agile-island-43684.herokuapp.com/" target="_blank">
      View Demo
     </a>
 </h1>
@@ -20,7 +20,7 @@
 
 ## About <a name = "about"></a>
 
-This is a [node](https://nodejs.org/en/) application that allows you to create, read, update, and delete notes. It uses [express](https://expressjs.com/) as the backend to handle requests from a JSON file. The frontend code for this was provided by the module.
+This is a [node](https://nodejs.org/en/) application that allows you to create, read, update, and delete notes. It uses [express](https://expressjs.com/) as the backend to handle requests from a JSON file. The frontend code was provided by the module.
 
 ## Getting Started <a name = "getting_started"></a>
 
