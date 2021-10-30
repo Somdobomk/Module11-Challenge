@@ -60,7 +60,7 @@ THEN I am presented with empty fields to enter a new note title and the note’s
 1. Clone this repo.
 2. Navigate to repo folder.
 3. Run `node server.js`
-4. Open a new tab in your browser and navigate to http://localhost:3000
+4. Open a new tab in your browser and navigate to http://localhost:3001
 
 ## Theme <a name = "theme"></a>
 
