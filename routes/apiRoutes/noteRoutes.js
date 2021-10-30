@@ -7,6 +7,7 @@ const {
 	deleteNote,
 } = require('../../lib/note');
 const { v1: uuidv1, v4: uuidv4 } = require('uuid');
+const { response } = require('express');
 
 // get all notes from db.json file
 router.get('/notes', (req, res) => {
@@ -23,7 +24,7 @@ router.post('/notes', (req, res) => {
 	} else {
 		const newNote = createNote(req.body);
 		notes.push(newNote);
-		res.json(notes);
+		res.json(newNote);
 	}
 });
 
